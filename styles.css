@@ -1,0 +1,49 @@
+body {
+    background-color: #1A1A1D;
+    color: #C5C6C7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #C5C6C7; 
+    text-align: center
+}
+
+
+#story {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100px; 
+    background-color: rgba(26, 26, 29, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; 
+}
+
+/* Buttons */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Button1, .Button2 {
+    background-color: #d0d0d0; 
+    color: #1A1A1D;
+    border: 2px solid #ffffff; 
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#commence {
+    text-align: center;
+}
+
+.Button1:hover, .Button2:hover {
+    background-color: #D72638; 
+    color: white;
+}
